@@ -30,5 +30,13 @@
     color: #000;
     padding: 0.3rem;
     font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
 
+#navbar form button:hover {
+    background-color: transparent;
+    color: #f7d354;
 }
