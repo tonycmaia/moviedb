@@ -6,3 +6,4 @@ sexta 22/09
 sabado 23/09
 domingo 24/09
 segunda 25/09
+quarta 27/09
