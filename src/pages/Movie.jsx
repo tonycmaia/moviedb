@@ -22,6 +22,8 @@ const Movie = () => {
         const res = await fetch(url);
         const data = await res.json();
 
+        console.log(data)
+
         setMovie(data);
     }
 
@@ -48,7 +50,7 @@ const Movie = () => {
                         <h3>
                             <BsWallet2 /> Orçamento:
                         </h3>
-                        <p>U${movie.budget}</p>
+                        <p>{ formatCurrency(movie.budget)}</p>
                     </div>
                     <div className="info">
                         <h3>
